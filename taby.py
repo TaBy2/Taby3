@@ -298,7 +298,7 @@ def listgrup():
     return listGrup
 
 def socmedia():
-    socMedia = "---- คำสั่งมีเดีย ----
+    socMedia = "---- คำสั่งมีเดีย ----" + "\n" + \
                   "°•°Instagram" + "\n" + \
                   "°•°Fotoig" + "\n" + \
                   "°•°Youtube" + "\n" + \
@@ -314,11 +314,11 @@ def socmedia():
                   "°•°Anime" + "\n" + \
                   "°•°Image" + "\n" + \
                   "°•°Pornhub" + "\n" + \
-                  "--------
+                  "--------"
     return socMedia
     
 def helpset():
-    helpSet = "++++คำสั่งเชค++++
+    helpSet = "++++คำสั่งเชค++++" + "\n" + \
     "•°•ᴍʏ sᴇʟғ" + "\n" + \
     "•°•sᴏᴄᴍᴇᴅɪᴀ" + "\n" + \
     "•°•ʟɪsᴛ ɢʀᴜᴘ" + "\n" + \
@@ -327,11 +327,11 @@ def helpset():
     "•°•sᴛᴀᴛᴜs" + "\n" + \
     "•°•ᴛᴇxᴛᴛᴏsᴘᴇᴇᴄʜ" + "\n" + \
     "•°•ʟɪsᴛ ᴛʀᴀɴsʟᴀᴛᴇ" + "\n" + \
-    "++++++++
+    "++++++++"
     return helpSet 
 
 def helpkicker():
-    helpKicker = "/////คำสั่งคิก/////
+    helpKicker = "/////คำสั่งคิก/////" + "\n" + \
     "║K1 kick" + "\n" + \
     "║K2 kick" + "\n" + \
     "║K3 kick" + "\n" + \
@@ -347,7 +347,7 @@ def helpkicker():
     "║cb" + "\n" + \
     "║Nameall:" + "\n" + \
     "║Bioall" + "\n" + \
-    "//////////
+    "//////////"
     return helpKicker
     
 def helpsetting():
