@@ -38,4 +38,4 @@ try:
                 cl.Poll.rev = max(cl.Poll.rev, Op.revision)
                 operate(Op)
 except:
-    print("\nEnd of operation\nThis program is created by Noxtian team\n")
+    print("\nEnd of operation\nThis program is created by Sven team\n")
