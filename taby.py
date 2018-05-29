@@ -352,23 +352,24 @@ def helpkicker():
     
 def helpsetting():
     helpSetting = "╭════SettingList " + "\n" + \
-    "║Protect on/off" + "\n" + \
+    "║เปิดกัน/ปิดกัน " + "\n" + \
     "║Cancel pro on/off" + "\n" + \
-    "║Invit pro on/off" + "\n" + \
-    "║Link pro on/off" + "\n" + \
-    "║Join pro on/off" + "\n" + \
-    "║Proall on/off" + "\n" + \
+    "║เปิดกันยก/ปิดกันยก" + "\n" + \
+    "║เปิดกันลิ้ง/ปิดกันลิ้ง" + "\n" + \
+    "║เปิดกันเข้า/ปิดกันเข้า" + "\n" + \
+    "║เปิดกันสมาชิก/ปิดกันสมาชิก" + "\n" + \
+    "║เปิดหมด/ปิดหมด" + "\n" + \
     "║Autojoin on/off" + "\n" + \
     "║Autoadd on/off" + "\n" + \
     "║Autoleave on/off" + "\n" + \
     "║Autoread on/off" + "\n" + \
-    "║Tag on/off" + "\n" + \
+    "║แทคออน/แทคออฟ" + "\n" + \
     "║Selfbot on/off" + "\n" + \
-    "║Tag2 on/off" + "\n" + \
+    "║แทค2ออน/แทค2ออฟ" + "\n" + \
     "║Checksticker on/off" + "\n" + \
     "║Sider on/off" + "\n" + \
-    "║Welcomemessage on/off" + "\n" + \
-    "║Leavemessage on/off" + "\n" + \
+    "║เปิดต้อนรับ/ปิดต้อนรับ" + "\n" + \
+    "║ปิดคนออก/เปิดคนออก" + "\n" + \
     "╰════"
     return helpSetting
 
