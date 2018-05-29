@@ -81,8 +81,8 @@ kcMID = kc.getProfile().mid
 kcMID = ke.getProfile().mid
 bot1 = line.getProfile().mid
 RfuBot=[lineMID,kiMID,kkMID,kcMID,keMID]
-Family=["u9ed31efc986199adedb27386c9b1f458",lineMID,kiMID,kkMID,kcMID,keMID]
-admin=['u9ed31efc986199adedb27386c9b1f458',lineMID]
+Family=["u7a4febc4c650fc7679eadf4245c2a5ad",lineMID,kiMID,kkMID,kcMID,keMID]
+admin=['u7a4febc4c650fc7679eadf4245c2a5ad',lineMID]
 RfuFamily = RfuBot + Family
 
 protectname = []
@@ -122,8 +122,8 @@ settings = {
     "pnharfbot": {},
     "pname": {},
     "pro_name": {},
-    "message":"บัญชีนี้ได้การป้องกันโดย PZGuard ระบบได้ทำการบล็อคคุณอัตโนมัติเนื่องจากคุณยังไม่ได้ยืนยันตัวตนกับผู้สร้างบอท\nสามารถยืนตัวตนได้ง่ายโดยการพิมunblockกับPZGruardระบบจะทำการปลดบล็อคท่านโดยอัตโนมัต",
-    "comment":"Thanks for add me",
+    "message":"บัญชีนี้ได้การป้องกันโดย RAKEY ระบบได้ทำการบล็อคคุณอัตโนมัติเนื่องจากคุณยังไม่ได้ยืนยันตัวตนกับผู้สร้างบอท\nสามารถยืนตัวตนได้ง่ายโดยการพิมunblockกับRakeydระบบจะทำการปลดบล็อคท่านโดยอัตโนมัต",
+    "comment":"ขอบคุณที่แอดฉัน",
     "userAgent": [
         "Mozilla/5.0 (X11; U; Linux i586; de; rv:5.0) Gecko/20100101 Firefox/5.0",
         "Mozilla/5.0 (X11; U; Linux amd64; rv:5.0) Gecko/20100101 Firefox/5.0 (Debian)",
@@ -274,110 +274,110 @@ def sendMessageWithMention(to, lineMID):
         logError(error)
  
 def myhelp():
-    myHelp = "╭════✰ɢʜᴏsᴛ ᴛᴇᴀᴍ✰   " + "\n" \
-                  "║About" + "\n" + \
-                  "║Help media" + "\n" + \
-                  "║Help kicker" + "\n" + \
-                  "║Help group" + "\n" + \
-                  "║Help protect" + "\n" + \
-                  "║Help setting" + "\n" + \
-                  "║textTospeech" + "\n" + \
-                  "║Languange" + "\n" + \
-                  "║Me" + "\n" + \
-                  "║Mymid" + "\n" + \
-                  "║Myname" + "\n" + \
-                  "║Mybio" + "\n" + \
-                  "║Mypict" + "\n" + \
-                  "║Mycover" + "\n" + \
-                  "║Myvideo" + "\n" + \
-                  "║Mid" + "\n" + \
-                  "║Name" + "\n" + \
-                  "║Bio" + "\n" + \
-                  "║Pict" + "\n" + \
-                  "║Cover" + "\n" + \
-                  "║Video" + "\n" + \
-                  "║Copy" + "\n" + \
-                  "║Restore" + "\n" + \
-                  "║Mimic on/off" + "\n" + \
-                  "║MimicList" + "\n" + \
-                  "║MimicAdd" + "\n" + \
-                  "║MimicDel" + "\n" + \
-                  "║Broadcastvoice" + "\n" + \
-                  "║Cbroadcastvoice" + "\n" + \
-                  "║Restart" + "\n" + \
-                  "║Runtime" + "\n" + \
-                  "╰════"
+    myHelp = "____ ༺ πနးຫຮี่のีধ์ ༻ _____ " + "\n" \
+                  "°•About" + "\n" + \
+                  "°•คำสั่งมีเดีย" + "\n" + \
+                  "°•คำสั่งคิก" + "\n" + \
+                  "°•คำสั่งกลุ่ม" + "\n" + \
+                  "°•คำสั่งป้องกัน" + "\n" + \
+                  "°•คำสั่งเชค" + "\n" + \
+                  "°•textTospeech" + "\n" + \
+                  "°•Languange" + "\n" + \
+                  "°•คท" + "\n" + \
+                  "°•มิด" + "\n" + \
+                  "°•ชื่อ" + "\n" + \
+                  "°•Mybio" + "\n" + \
+                  "°•Mypict" + "\n" + \
+                  "°•Mycover" + "\n" + \
+                  "°•Myvideo" + "\n" + \
+                  "°•Mid" + "\n" + \
+                  "°•Name" + "\n" + \
+                  "°•Bio" + "\n" + \
+                  "°•Pict" + "\n" + \
+                  "°•Cover" + "\n" + \
+                  "°•Video" + "\n" + \
+                  "°•Copy" + "\n" + \
+                  "°•Restore" + "\n" + \
+                  "°•Mimic on/off" + "\n" + \
+                  "°•MimicList" + "\n" + \
+                  "°•MimicAdd" + "\n" + \
+                  "°•MimicDel" + "\n" + \
+                  "°•Broadcastvoice" + "\n" + \
+                  "°•Cbroadcastvoice" + "\n" + \
+                  "°•รีบอท" + "\n" + \
+                  "°•เชคออน์" + "\n" + \
+                  "______༺ πနးຫຮี่のีধ์ ༻_____"
     return myHelp
 
 def listgrup():
-    listGrup = "╭════HelpGroup " + "\n" + \
-                  "║GroupCreator" + "\n" + \
-                  "║GroupId" + "\n" + \
-                  "║GroupName" + "\n" + \
-                  "║GroupPicture" + "\n" + \
-                  "║GroupList" + "\n" + \
-                  "║GroupMemberList" + "\n" + \
-                  "║GroupInfo" + "\n" + \
-                  "║Url" + "\n" + \
-                  "║Link on/off" + "\n" + \
-                  "║Gurl" + "\n" + \
-                  "║Friendlist" + "\n" + \
-                  "║Blocklist" + "\n" + \
-                  "║Friendlist mid" + "\n" + \
-                  "║Invite:gcreator" + "\n" + \
-                  "║Spam on/off" + "\n" + \
-                  "║Reject inv" + "\n" + \
-                  "║Allban" + "\n" + \
-                  "║Grouplist" + "\n" + \
-                  "║Blist" + "\n" + \
-                  "║Mention" + "\n" + \
-                  "║Lurking on" + "\n" + \
-                  "║Lurking off" + "\n" + \
-                  "║Lurking reset" + "\n" + \
-                  "║Lurking" + "\n" + \
-                  "║Invite" + "\n" + \
-                  "║uninstall" + "\n" + \
-                  "║Kick" + "\n" + \
-                  "║Ban:on" + "\n" + \
-                  "║Unban:on" + "\n" + \
-                  "╰════"
+    listGrup = "*****༺ คำสั่งกลุ่ม ༻ ***** " + "\n" + \
+                  "•°GroupCreator" + "\n" + \
+                  "•°ไอดีกลุ่ม" + "\n" + \
+                  "•°ชื่อกลุ่ม" + "\n" + \
+                  "•°รูปกลุ่ม" + "\n" + \
+                  "•°GroupList" + "\n" + \
+                  "•°GroupMemberList" + "\n" + \
+                  "•°GroupInfo" + "\n" + \
+                  "•°Url" + "\n" + \
+                  "•°ลิ้ง on/off" + "\n" + \
+                  "•°Gurl" + "\n" + \
+                  "•°รายชื่อเพื่อน" + "\n" + \
+                  "•°รายชื่อบล็อค" + "\n" + \
+                  "•°Friendlist mid" + "\n" + \
+                  "•°Invite:gcreator" + "\n" + \
+                  "•°Spam on/off" + "\n" + \
+                  "•°Reject inv" + "\n" + \
+                  "•°Allban" + "\n" + \
+                  "•°Grouplist" + "\n" + \
+                  "•°Blist" + "\n" + \
+                  "•°แทค" + "\n" + \
+                  "•°Lurking on" + "\n" + \
+                  "•°Lurking off" + "\n" + \
+                  "•°Lurking reset" + "\n" + \
+                  "•°Lurking" + "\n" + \
+                  "•°Invite" + "\n" + \
+                  "•°uninstall" + "\n" + \
+                  "•°เตะ" + "\n" + \
+                  "•°แบน:on" + "\n" + \
+                  "•°ปลดแบน:on" + "\n" + \
+                  "**********"
     return listGrup
 
 def socmedia():
-    socMedia = "╭════HelpMedia " + "\n" + \
-                  "║Instagram" + "\n" + \
-                  "║Fotoig" + "\n" + \
-                  "║Youtube" + "\n" + \
-                  "║Music" + "\n" + \
-                  "║Lyric" + "\n" + \
-                  "║ScreenshootWebsite" + "\n" + \
-                  "║Film:" + "\n" + \
-                  "║Kalender" + "\n" + \
-                  "║CheckDate" + "\n" + \
-                  "║Textig" + "\n" + \
-                  "║Wikipedia" + "\n" + \
-                  "║Urban" + "\n" + \
-                  "║Anime" + "\n" + \
-                  "║Image" + "\n" + \
-                  "║Pornhub" + "\n" + \
-                  "╰════"
+    socMedia = "---- คำสั่งมีเดีย ----
+                  "°•°Instagram" + "\n" + \
+                  "°•°Fotoig" + "\n" + \
+                  "°•°Youtube" + "\n" + \
+                  "°•°Music" + "\n" + \
+                  "°•°Lyric" + "\n" + \
+                  "°•°ScreenshootWebsite" + "\n" + \
+                  "°•°Film:" + "\n" + \
+                  "°•°Kalender" + "\n" + \
+                  "°•°CheckDate" + "\n" + \
+                  "°•°Textig" + "\n" + \
+                  "°•°Wikipedia" + "\n" + \
+                  "°•°Urban" + "\n" + \
+                  "°•°Anime" + "\n" + \
+                  "°•°Image" + "\n" + \
+                  "°•°Pornhub" + "\n" + \
+                  "--------
     return socMedia
     
 def helpset():
-    helpSet = "╭════HelpMySet " + "\n" + \
-    "║ᴍʏ sᴇʟғ" + "\n" + \
-    "║sᴏᴄᴍᴇᴅɪᴀ" + "\n" + \
-    "║ʟɪsᴛ ɢʀᴜᴘ" + "\n" + \
-    "║ʟɪsᴛ ᴘʀᴏᴛᴇᴄᴛ" + "\n" + \
-    "║ʟɪsᴛ ᴋɪᴄᴋᴇʀ" + "\n" + \
-    "║sᴛᴀᴛᴜs" + "\n" + \
-    "║ᴛᴇxᴛᴛᴏsᴘᴇᴇᴄʜ" + "\n" + \
-    "║ʟɪsᴛ ᴛʀᴀɴsʟᴀᴛᴇ" + "\n" + \
-    "╰════"
+    helpSet = "++++คำสั่งเชค++++
+    "•°•ᴍʏ sᴇʟғ" + "\n" + \
+    "•°•sᴏᴄᴍᴇᴅɪᴀ" + "\n" + \
+    "•°•ʟɪsᴛ ɢʀᴜᴘ" + "\n" + \
+    "•°•ʟɪsᴛ ᴘʀᴏᴛᴇᴄᴛ" + "\n" + \
+    "•°•ʟɪsᴛ ᴋɪᴄᴋᴇʀ" + "\n" + \
+    "•°•sᴛᴀᴛᴜs" + "\n" + \
+    "•°•ᴛᴇxᴛᴛᴏsᴘᴇᴇᴄʜ" + "\n" + \
+    "•°•ʟɪsᴛ ᴛʀᴀɴsʟᴀᴛᴇ" + "\n" + \
+    "++++++++
     return helpSet 
 
 def helpkicker():
-    helpKicker = "╭════HelpKicker " + "\n" + \
+    helpKicker = "/////คำสั่งคิก/////
     "║K1 kick" + "\n" + \
     "║K2 kick" + "\n" + \
     "║K3 kick" + "\n" + \
@@ -393,7 +393,7 @@ def helpkicker():
     "║cb" + "\n" + \
     "║Nameall:" + "\n" + \
     "║Bioall" + "\n" + \
-    "╰════"
+    "//////////
     return helpKicker
     
 def helpsetting():
@@ -423,7 +423,7 @@ def helptexttospeech():
                          "╠⌬ ✰self protect✰    ⌬" + "\n" + \
                          "╚══════════════┛" + "\n" + \
                          "────┅═ই۝ई═┅────" + "\n" + \
-                         "          ʜᴇʟᴘ ᴛᴇxᴛᴛᴏsᴘᴇᴇᴄʜ" + "\n" + \
+                         "        •°คำสั่งสิริ°•" + "\n" + \
                          "────┅═ই۝ई═┅────" + "\n" + \
                          "╔══════════════┓" + "\n" + \
                          "╠❂ af : Afrikaans" + "\n" + \
@@ -480,7 +480,7 @@ def helptexttospeech():
                          "╠❂ vi : Vietnamese" + "\n" + \
                          "╠❂ cy : Welsh" + "\n" + \
                          "╚══════════════┛" + "\n" + "\n\n" + \
-                          "「Contoh : say-id Pengen Anu」"
+                          "「ตัวอย่าง say-th หนูสวย」"
     return helpTextToSpeech
     
 def helplanguange():
@@ -488,7 +488,7 @@ def helplanguange():
                        "╠⌬ ✰self protect✰    ⌬" + "\n" + \
                        "╚══════════════┛" + "\n" + \
                        "────┅═ই۝ई═┅────" + "\n" + \
-                       "          ʜᴇʟᴘ ᴛʀᴀɴsʟᴀᴛᴇ" + "\n" + \
+                       "       คำสั่งแปลภาษา" + "\n" + \
                        "────┅═ই۝ई═┅────" + "\n" + \
                        "╔══════════════┓" + "\n" + \
                        "╠❂ af : afrikaans" + "\n" + \
@@ -598,7 +598,7 @@ def helplanguange():
                        "╠❂ fil : Filipino" + "\n" + \
                        "╠❂ he : Hebrew" + "\n" + \
                        "╚══════════════┛" + "\n" + "\n\n" + \
-                       "「Contoh : tr-id Pengen Anu」"
+                       "「ตัวอย่าง tr-yi 」"
     return helpLanguange
 #==============================================================================#
 def lineBot(op):
