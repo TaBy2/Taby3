@@ -230,11 +230,11 @@ def sendMessageWithMention(to, lineMID):
 def myhelp():
     myHelp = "____ ༺ πနးຫຮี่のีধ์ ༻ _____ " + "\n" \
                   "°•About" + "\n" + \
-                  "°•คำสั่งมีเดีย" + "\n" + \
-                  "°•คำสั่งคิก" + "\n" + \
-                  "°•คำสั่งกลุ่ม" + "\n" + \
-                  "°•คำสั่งป้องกัน" + "\n" + \
-                  "°•คำสั่งเชค" + "\n" + \
+                  "°•Help media" + "\n" + \
+                  "°•Help kicker" + "\n" + \
+                  "°•Help group" + "\n" + \
+                  "°•Help protect" + "\n" + \
+                  "°•Help setting" + "\n" + \
                   "°•textTospeech" + "\n" + \
                   "°•Languange" + "\n" + \
                   "°•คท" + "\n" + \
