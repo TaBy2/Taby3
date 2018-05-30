@@ -639,7 +639,7 @@ def lineBot(op):
                 elif text.lower() == 'คำสังคิก':
                     helpKicker = helpkicker()
                     line.sendMessage(to, str(helpKicker))
-                elif text.lower() == 'คำสั่งกล่มุ':
+                elif text.lower() == 'คำสั่งกลุ่ม':
                     listGrup = listgrup()
                     line.sendMessage(to, str(listGrup))
                 elif text.lower() == 'คำสั่งตั้งค่า':
