@@ -230,13 +230,13 @@ def sendMessageWithMention(to, lineMID):
 def myhelp():
     myHelp = "____ ༺ πနးຫຮี่のีধ์ ༻ _____ " + "\n" \
                   "°•About" + "\n" + \
-                  "°•Help media" + "\n" + \
-                  "°•Help kicker" + "\n" + \
-                  "°•Help group" + "\n" + \
+                  "°•คำสั่งโซเชียล" + "\n" + \
+                  "°•คำสั่งคิก" + "\n" + \
+                  "°•คำสั่งกลุ่ม" + "\n" + \
                   "°•Help protect" + "\n" + \
-                  "°•Help setting" + "\n" + \
-                  "°•textTospeech" + "\n" + \
-                  "°•Languange" + "\n" + \
+                  "°•คำสั่งตั้งค่า" + "\n" + \
+                  "°•คำสั่งสิริพูด" + "\n" + \
+                  "°•คำสั่งแปล" + "\n" + \
                   "°•คท" + "\n" + \
                   "°•มิด" + "\n" + \
                   "°•ชื่อ" + "\n" + \
@@ -629,29 +629,29 @@ def lineBot(op):
                         p = Pool(20)
                         p.map(Rapid1Say,rmtosay)
                         p.close()
-                if text.lower() == 'my help':
+                if text.lower() == 'คำสั่ง':
                     myHelp = myhelp()
                     line.sendMessage(to, str(myHelp))
-                elif text.lower() == 'help set':
+                elif text.lower() == 'คำสั่งเซ็ท':
                     helpSet = helpset()
                     line.sendMessage(to, str(helpSet))
                     sendMessageWithMention(to, lineMID)
-                elif text.lower() == 'help kicker':
+                elif text.lower() == 'คำสังคิก':
                     helpKicker = helpkicker()
                     line.sendMessage(to, str(helpKicker))
-                elif text.lower() == 'help group':
+                elif text.lower() == 'คำสั่งกล่มุ':
                     listGrup = listgrup()
                     line.sendMessage(to, str(listGrup))
-                elif text.lower() == 'help setting':
+                elif text.lower() == 'คำสั่งตั้งค่า':
                     helpSetting = helpsetting()
                     line.sendMessage(to, str(helpSetting))
-                elif text.lower() == 'help media':
+                elif text.lower() == 'คำสั่งโซเชียล':
                     socMedia = socmedia()
                     line.sendMessage(to, str(socMedia))
-                elif text.lower() == 'texttospeech':
+                elif text.lower() == 'คำสั่งสิริพูด':
                     helpTextToSpeech = helptexttospeech()
                     line.sendMessage(to, str(helpTextToSpeech))
-                elif text.lower() == 'languange':
+                elif text.lower() == 'คำสั่งแปล':
                     helpLanguange = helplanguange()
                     line.sendMessage(to, str(helpLanguange))
 #==============================================================================#
@@ -3546,7 +3546,7 @@ def lineBot(op):
                          if settings['detectMention'] == True:
                              contact = line.getContact(msg._from)
                              cName = contact.displayName
-                             balas = ["『 Auto Respon』\n " + cName + "\n『แทคทำไมหรอ?』"]
+                             balas = ["『 ตอบอัตโนมัติ 』\n " + cName + "\n『แทคงี้ชอบเค้าหรา』"]
                              ret_ = "" + random.choice(balas)
                              name = re.findall(r'@(\w+)', msg.text)
                              mention = ast.literal_eval(msg.contentMetadata["MENTION"])
