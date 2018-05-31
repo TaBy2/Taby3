@@ -636,7 +636,7 @@ def lineBot(op):
                     helpSet = helpset()
                     line.sendMessage(to, str(helpSet))
                     sendMessageWithMention(to, lineMID)
-                elif text.lower() == 'คำสังคิก':
+                elif text.lower() == 'คำสั่งคิก':
                     helpKicker = helpkicker()
                     line.sendMessage(to, str(helpKicker))
                 elif text.lower() == 'คำสั่งกลุ่ม':
