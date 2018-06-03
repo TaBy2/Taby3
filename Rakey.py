@@ -81,8 +81,8 @@ kcMID = kc.getProfile().mid
 kcMID = ke.getProfile().mid
 bot1 = line.getProfile().mid
 RfuBot=[lineMID,kiMID,kkMID,kcMID,keMID]
-Family=["u9ed31efc986199adedb27386c9b1f458",lineMID,kiMID,kkMID,kcMID,keMID]
-admin=['u9ed31efc986199adedb27386c9b1f458',lineMID]
+Family=["u3930826c2f2dbf7b11a27efbcc37add",lineMID,kiMID,kkMID,kcMID,keMID]
+admin=['u3930826c2f2dbf7b11a27efbcc37add',lineMID]
 RfuFamily = RfuBot + Family
 
 protectname = []
@@ -122,7 +122,7 @@ settings = {
     "pnharfbot": {},
     "pname": {},
     "pro_name": {},
-    "message":"บัญชีนี้ได้การป้องกันโดย PZGuard ระบบได้ทำการบล็อคคุณอัตโนมัติเนื่องจากคุณยังไม่ได้ยืนยันตัวตนกับผู้สร้างบอท\nสามารถยืนตัวตนได้ง่ายโดยการพิมunblockกับPZGruardระบบจะทำการปลดบล็อคท่านโดยอัตโนมัต",
+    "message":"บัญชีนี้ได้การป้องกันโดย ༺ πနးຫຮี่のีধ์ ༻ ระบบได้ทำการบล็อคคุณอัตโนมัติ",
     "comment":"Thanks for add me",
     "userAgent": [
         "Mozilla/5.0 (X11; U; Linux i586; de; rv:5.0) Gecko/20100101 Firefox/5.0",
@@ -274,110 +274,110 @@ def sendMessageWithMention(to, lineMID):
         logError(error)
  
 def myhelp():
-    myHelp = "╭════✰ɢʜᴏsᴛ ᴛᴇᴀᴍ✰   " + "\n" \
-                  "║About" + "\n" + \
-                  "║Help media" + "\n" + \
-                  "║Help kicker" + "\n" + \
-                  "║Help group" + "\n" + \
-                  "║Help protect" + "\n" + \
-                  "║Help setting" + "\n" + \
-                  "║textTospeech" + "\n" + \
-                  "║Languange" + "\n" + \
-                  "║Me" + "\n" + \
-                  "║Mymid" + "\n" + \
-                  "║Myname" + "\n" + \
-                  "║Mybio" + "\n" + \
-                  "║Mypict" + "\n" + \
-                  "║Mycover" + "\n" + \
-                  "║Myvideo" + "\n" + \
-                  "║Mid" + "\n" + \
-                  "║Name" + "\n" + \
-                  "║Bio" + "\n" + \
-                  "║Pict" + "\n" + \
-                  "║Cover" + "\n" + \
-                  "║Video" + "\n" + \
-                  "║Copy" + "\n" + \
-                  "║Restore" + "\n" + \
-                  "║Mimic on/off" + "\n" + \
-                  "║MimicList" + "\n" + \
-                  "║MimicAdd" + "\n" + \
-                  "║MimicDel" + "\n" + \
-                  "║Broadcastvoice" + "\n" + \
-                  "║Cbroadcastvoice" + "\n" + \
-                  "║Restart" + "\n" + \
-                  "║Runtime" + "\n" + \
-                  "╰════"
+    myHelp = "____ ༺ πနးຫຮี่のีধ์ ༻ _____ " + "\n" \
+                  "°•About" + "\n" + \
+                  "°•คำสั่งโซเชียล" + "\n" + \
+                  "°•คำสั่งคิก" + "\n" + \
+                  "°•คำสั่งกลุ่ม" + "\n" + \
+                  "°•Help protect" + "\n" + \
+                  "°•คำสั่งตั้งค่า" + "\n" + \
+                  "°•คำสั่งสิริพูด" + "\n" + \
+                  "°•คำสั่งแปล" + "\n" + \
+                  "°•คท" + "\n" + \
+                  "°•มิด" + "\n" + \
+                  "°•ชื่อ" + "\n" + \
+                  "°•Mybio" + "\n" + \
+                  "°•Mypict" + "\n" + \
+                  "°•Mycover" + "\n" + \
+                  "°•Myvideo" + "\n" + \
+                  "°•Mid" + "\n" + \
+                  "°•Name" + "\n" + \
+                  "°•Bio" + "\n" + \
+                  "°•Pict" + "\n" + \
+                  "°•Cover" + "\n" + \
+                  "°•Video" + "\n" + \
+                  "°•Copy" + "\n" + \
+                  "°•Restore" + "\n" + \
+                  "°•Mimic on/off" + "\n" + \
+                  "°•MimicList" + "\n" + \
+                  "°•MimicAdd" + "\n" + \
+                  "°•MimicDel" + "\n" + \
+                  "°•Broadcastvoice" + "\n" + \
+                  "°•Cbroadcastvoice" + "\n" + \
+                  "°•รีบอท" + "\n" + \
+                  "°•เชคออน์" + "\n" + \
+                  "______༺ πနးຫຮี่のีধ์ ༻_____"
     return myHelp
 
 def listgrup():
-    listGrup = "╭════HelpGroup " + "\n" + \
-                  "║GroupCreator" + "\n" + \
-                  "║GroupId" + "\n" + \
-                  "║GroupName" + "\n" + \
-                  "║GroupPicture" + "\n" + \
-                  "║GroupList" + "\n" + \
-                  "║GroupMemberList" + "\n" + \
-                  "║GroupInfo" + "\n" + \
-                  "║Url" + "\n" + \
-                  "║Link on/off" + "\n" + \
-                  "║Gurl" + "\n" + \
-                  "║Friendlist" + "\n" + \
-                  "║Blocklist" + "\n" + \
-                  "║Friendlist mid" + "\n" + \
-                  "║Invite:gcreator" + "\n" + \
-                  "║Spam on/off" + "\n" + \
-                  "║Reject inv" + "\n" + \
-                  "║Allban" + "\n" + \
-                  "║Grouplist" + "\n" + \
-                  "║Blist" + "\n" + \
-                  "║Mention" + "\n" + \
-                  "║Lurking on" + "\n" + \
-                  "║Lurking off" + "\n" + \
-                  "║Lurking reset" + "\n" + \
-                  "║Lurking" + "\n" + \
-                  "║Invite" + "\n" + \
-                  "║uninstall" + "\n" + \
-                  "║Kick" + "\n" + \
-                  "║Ban:on" + "\n" + \
-                  "║Unban:on" + "\n" + \
-                  "╰════"
+    listGrup = "*****༺ คำสั่งกลุ่ม ༻ ***** " + "\n" + \
+                  "•°GroupCreator" + "\n" + \
+                  "•°ไอดีกลุ่ม" + "\n" + \
+                  "•°ชื่อกลุ่ม" + "\n" + \
+                  "•°รูปกลุ่ม" + "\n" + \
+                  "•°GroupList" + "\n" + \
+                  "•°GroupMemberList" + "\n" + \
+                  "•°GroupInfo" + "\n" + \
+                  "•°Url" + "\n" + \
+                  "•°ลิ้ง on/off" + "\n" + \
+                  "•°Gurl" + "\n" + \
+                  "•°รายชื่อเพื่อน" + "\n" + \
+                  "•°รายชื่อบล็อค" + "\n" + \
+                  "•°Friendlist mid" + "\n" + \
+                  "•°Invite:gcreator" + "\n" + \
+                  "•°Spam on/off" + "\n" + \
+                  "•°Reject inv" + "\n" + \
+                  "•°Allban" + "\n" + \
+                  "•°Grouplist" + "\n" + \
+                  "•°Blist" + "\n" + \
+                  "•°แทค" + "\n" + \
+                  "•°Lurking on" + "\n" + \
+                  "•°Lurking off" + "\n" + \
+                  "•°Lurking reset" + "\n" + \
+                  "•°Lurking" + "\n" + \
+                  "•°Invite" + "\n" + \
+                  "•°uninstall" + "\n" + \
+                  "•°เตะ" + "\n" + \
+                  "•°แบน:on" + "\n" + \
+                  "•°ปลดแบน:on" + "\n" + \
+                  "**********"
     return listGrup
 
 def socmedia():
-    socMedia = "╭════HelpMedia " + "\n" + \
-                  "║Instagram" + "\n" + \
-                  "║Fotoig" + "\n" + \
-                  "║Youtube" + "\n" + \
-                  "║Music" + "\n" + \
-                  "║Lyric" + "\n" + \
-                  "║ScreenshootWebsite" + "\n" + \
-                  "║Film:" + "\n" + \
-                  "║Kalender" + "\n" + \
-                  "║CheckDate" + "\n" + \
-                  "║Textig" + "\n" + \
-                  "║Wikipedia" + "\n" + \
-                  "║Urban" + "\n" + \
-                  "║Anime" + "\n" + \
-                  "║Image" + "\n" + \
-                  "║Pornhub" + "\n" + \
-                  "╰════"
+    socMedia = "---- คำสั่งมีเดีย ----" + "\n" + \
+                  "°•°Instagram" + "\n" + \
+                  "°•°Fotoig" + "\n" + \
+                  "°•°Youtube" + "\n" + \
+                  "°•°Music" + "\n" + \
+                  "°•°Lyric" + "\n" + \
+                  "°•°ScreenshootWebsite" + "\n" + \
+                  "°•°Film:" + "\n" + \
+                  "°•°Kalender" + "\n" + \
+                  "°•°CheckDate" + "\n" + \
+                  "°•°Textig" + "\n" + \
+                  "°•°Wikipedia" + "\n" + \
+                  "°•°Urban" + "\n" + \
+                  "°•°Anime" + "\n" + \
+                  "°•°Image" + "\n" + \
+                  "°•°Pornhub" + "\n" + \
+                  "--------"
     return socMedia
     
 def helpset():
-    helpSet = "╭════HelpMySet " + "\n" + \
-    "║ᴍʏ sᴇʟғ" + "\n" + \
-    "║sᴏᴄᴍᴇᴅɪᴀ" + "\n" + \
-    "║ʟɪsᴛ ɢʀᴜᴘ" + "\n" + \
-    "║ʟɪsᴛ ᴘʀᴏᴛᴇᴄᴛ" + "\n" + \
-    "║ʟɪsᴛ ᴋɪᴄᴋᴇʀ" + "\n" + \
-    "║sᴛᴀᴛᴜs" + "\n" + \
-    "║ᴛᴇxᴛᴛᴏsᴘᴇᴇᴄʜ" + "\n" + \
-    "║ʟɪsᴛ ᴛʀᴀɴsʟᴀᴛᴇ" + "\n" + \
-    "╰════"
+    helpSet = "++++คำสั่งเชค++++" + "\n" + \
+    "•°•ᴍʏ sᴇʟғ" + "\n" + \
+    "•°•sᴏᴄᴍᴇᴅɪᴀ" + "\n" + \
+    "•°•ʟɪsᴛ ɢʀᴜᴘ" + "\n" + \
+    "•°•ʟɪsᴛ ᴘʀᴏᴛᴇᴄᴛ" + "\n" + \
+    "•°•ʟɪsᴛ ᴋɪᴄᴋᴇʀ" + "\n" + \
+    "•°•sᴛᴀᴛᴜs" + "\n" + \
+    "•°•ᴛᴇxᴛᴛᴏsᴘᴇᴇᴄʜ" + "\n" + \
+    "•°•ʟɪsᴛ ᴛʀᴀɴsʟᴀᴛᴇ" + "\n" + \
+    "++++++++"
     return helpSet 
 
 def helpkicker():
-    helpKicker = "╭════HelpKicker " + "\n" + \
+    helpKicker = "/////คำสั่งคิก/////" + "\n" + \
     "║K1 kick" + "\n" + \
     "║K2 kick" + "\n" + \
     "║K3 kick" + "\n" + \
@@ -393,28 +393,29 @@ def helpkicker():
     "║cb" + "\n" + \
     "║Nameall:" + "\n" + \
     "║Bioall" + "\n" + \
-    "╰════"
+    "//////////"
     return helpKicker
     
 def helpsetting():
     helpSetting = "╭════SettingList " + "\n" + \
-    "║Protect on/off" + "\n" + \
+    "║เปิดกัน/ปิดกัน " + "\n" + \
     "║Cancel pro on/off" + "\n" + \
-    "║Invit pro on/off" + "\n" + \
-    "║Link pro on/off" + "\n" + \
-    "║Join pro on/off" + "\n" + \
-    "║Proall on/off" + "\n" + \
+    "║เปิดกันยก/ปิดกันยก" + "\n" + \
+    "║เปิดกันลิ้ง/ปิดกันลิ้ง" + "\n" + \
+    "║เปิดกันเข้า/ปิดกันเข้า" + "\n" + \
+    "║เปิดกันสมาชิก/ปิดกันสมาชิก" + "\n" + \
+    "║เปิดหมด/ปิดหมด" + "\n" + \
     "║Autojoin on/off" + "\n" + \
     "║Autoadd on/off" + "\n" + \
     "║Autoleave on/off" + "\n" + \
     "║Autoread on/off" + "\n" + \
-    "║Tag on/off" + "\n" + \
+    "║แทคออน/แทคออฟ" + "\n" + \
     "║Selfbot on/off" + "\n" + \
-    "║Tag2 on/off" + "\n" + \
+    "║แทค2ออน/แทค2ออฟ" + "\n" + \
     "║Checksticker on/off" + "\n" + \
     "║Sider on/off" + "\n" + \
-    "║Welcomemessage on/off" + "\n" + \
-    "║Leavemessage on/off" + "\n" + \
+    "║เปิดต้อนรับ/ปิดต้อนรับ" + "\n" + \
+    "║ปิดคนออก/เปิดคนออก" + "\n" + \
     "╰════"
     return helpSetting
 
@@ -423,7 +424,7 @@ def helptexttospeech():
                          "╠⌬ ✰self protect✰    ⌬" + "\n" + \
                          "╚══════════════┛" + "\n" + \
                          "────┅═ই۝ई═┅────" + "\n" + \
-                         "          ʜᴇʟᴘ ᴛᴇxᴛᴛᴏsᴘᴇᴇᴄʜ" + "\n" + \
+                         "        •°คำสั่งสิริ°•" + "\n" + \
                          "────┅═ই۝ई═┅────" + "\n" + \
                          "╔══════════════┓" + "\n" + \
                          "╠❂ af : Afrikaans" + "\n" + \
@@ -480,7 +481,7 @@ def helptexttospeech():
                          "╠❂ vi : Vietnamese" + "\n" + \
                          "╠❂ cy : Welsh" + "\n" + \
                          "╚══════════════┛" + "\n" + "\n\n" + \
-                          "「Contoh : say-id Pengen Anu」"
+                          "「ตัวอย่าง say-th หนูสวย」"
     return helpTextToSpeech
     
 def helplanguange():
@@ -488,7 +489,7 @@ def helplanguange():
                        "╠⌬ ✰self protect✰    ⌬" + "\n" + \
                        "╚══════════════┛" + "\n" + \
                        "────┅═ই۝ई═┅────" + "\n" + \
-                       "          ʜᴇʟᴘ ᴛʀᴀɴsʟᴀᴛᴇ" + "\n" + \
+                       "       คำสั่งแปลภาษา" + "\n" + \
                        "────┅═ই۝ई═┅────" + "\n" + \
                        "╔══════════════┓" + "\n" + \
                        "╠❂ af : afrikaans" + "\n" + \
@@ -598,7 +599,7 @@ def helplanguange():
                        "╠❂ fil : Filipino" + "\n" + \
                        "╠❂ he : Hebrew" + "\n" + \
                        "╚══════════════┛" + "\n" + "\n\n" + \
-                       "「Contoh : tr-id Pengen Anu」"
+                       "「ตัวอย่าง tr-yi 」"
     return helpLanguange
 #==============================================================================#
 def lineBot(op):
@@ -678,29 +679,29 @@ def lineBot(op):
                         p = Pool(20)
                         p.map(Rapid1Say,rmtosay)
                         p.close()
-                if text.lower() == 'my help':
+                if text.lower() == 'คำสั่ง':
                     myHelp = myhelp()
                     line.sendMessage(to, str(myHelp))
-                elif text.lower() == 'help set':
+                elif text.lower() == 'คำสั่งเซ็ท':
                     helpSet = helpset()
                     line.sendMessage(to, str(helpSet))
                     sendMessageWithMention(to, lineMID)
-                elif text.lower() == 'help kicker':
+                elif text.lower() == 'คำสั่งคิก':
                     helpKicker = helpkicker()
                     line.sendMessage(to, str(helpKicker))
-                elif text.lower() == 'help group':
+                elif text.lower() == 'คำสั่งกลุ่ม':
                     listGrup = listgrup()
                     line.sendMessage(to, str(listGrup))
-                elif text.lower() == 'help setting':
+                elif text.lower() == 'คำสั่งตั้งค่า':
                     helpSetting = helpsetting()
                     line.sendMessage(to, str(helpSetting))
-                elif text.lower() == 'help media':
+                elif text.lower() == 'คำสั่งโซเชียล':
                     socMedia = socmedia()
                     line.sendMessage(to, str(socMedia))
-                elif text.lower() == 'texttospeech':
+                elif text.lower() == 'คำสั่งสิริพูด':
                     helpTextToSpeech = helptexttospeech()
                     line.sendMessage(to, str(helpTextToSpeech))
-                elif text.lower() == 'languange':
+                elif text.lower() == 'คำสั่งแปล':
                     helpLanguange = helplanguange()
                     line.sendMessage(to, str(helpLanguange))
 #==============================================================================#
@@ -726,7 +727,7 @@ def lineBot(op):
                 elif text.lower() == 'about':
                     try:
                         arr = []
-                        owner = "ue92d89cc346863c640b8a7855e14abd7"
+                        owner = "u3930826c2f2dbf7b11a27efbcc37add"
                         creator = line.getContact(owner)
                         contact = line.getContact(lineMID)
                         grouplist = line.getGroupIdsJoined()
@@ -832,17 +833,17 @@ def lineBot(op):
                     settings["checkSticker"] = False
                     line.sendMessage(to, "Check sticker disabled.")                
 #==============================================================================#
-                elif text.lower() == 'me':
+                elif text.lower() == 'คท':
                     sendMessageWithMention(to, lineMID)
                     line.sendContact(to, lineMID)
                 elif text.lower() == 'creator':
                     sendMessageWithMention(to, lineMID)
-                    line.sendContact(to, "ue92d89cc346863c640b8a7855e14abd7")
-                elif text.lower() == 'mymid':
-                    line.sendMessage(msg.to,"[MID]\n" +  lineMID)
-                elif text.lower() == 'myname':
+                    line.sendContact(to, "u3930826c2f2dbf7b11a27efbcc37add5")
+                elif text.lower() == 'มิด':
+                    line.sendMessage(msg.to,"[มิด]\n" +  lineMID)
+                elif text.lower() == 'ชื่อ':
                     me = line.getContact(lineMID)
-                    line.sendMessage(msg.to,"[DisplayName]\n" + me.displayName)
+                    line.sendMessage(msg.to,"[ชื่อ/เฮด]\n" + me.displayName)
                 elif text.lower() == 'mybio':
                     me = line.getContact(lineMID)
                     line.sendMessage(msg.to,"[StatusMessage]\n" + me.statusMessage)
@@ -1023,14 +1024,14 @@ def lineBot(op):
                     GS = group.creator.mid
                     line.sendContact(to, GS)
                     line.sendMessage(to, "Itu Pembuat Groupnya")
-                elif text.lower() == 'groupid':
+                elif text.lower() == 'ไอดีกลุ่ม':
                     gid = line.getGroup(to)
                     line.sendMessage(to, "ID GROUP \n" + gid.id)
-                elif text.lower() == 'grouppicture':
+                elif text.lower() == 'รูปกลุ่ม':
                     group = line.getGroup(to)
                     path = "http://dl.profile.line-cdn.net/" + group.pictureStatus
                     line.sendImageWithURL(to, path)
-                elif text.lower() == 'groupname':
+                elif text.lower() == 'ชื่อกลุ่ม':
                     gid = line.getGroup(to)
                     line.sendMessage(to, "Name Group -> \n" + gid.name)
                 elif text.lower() == 'url':
@@ -1039,7 +1040,7 @@ def lineBot(op):
                         if group.preventedJoinByTicket == False:
                             ticket = line.reissueGroupTicket(to)
                             line.sendMessage(to, "Link Qr Group\nhttps://line.me/R/ti/g/{}".format(str(ticket)))
-                elif text.lower() == 'link on':
+                elif text.lower() == 'ลิ้ง on':
                     if msg.toType == 2:
                         group = line.getGroup(to)
                         if group.preventedJoinByTicket == False:
@@ -1048,7 +1049,7 @@ def lineBot(op):
                             group.preventedJoinByTicket = False
                             line.updateGroup(group)
                             line.sendMessage(to, "Link Qr to open")
-                elif text.lower() == 'link off':
+                elif text.lower() == 'ลิ้ง off':
                     if msg.toType == 2:
                         group = line.getGroup(to)
                         if group.preventedJoinByTicket == True:
@@ -1517,7 +1518,7 @@ def lineBot(op):
                     msg.text = None
                     line.sendMessage(msg)						
 #==============================================================================#
-                elif text.lower() == 'mention':
+                elif text.lower() == 'แทค':
                     group = line.getGroup(msg.to)
                     nama = [contact.mid for contact in group.members]
                     k = len(nama)//500
@@ -2844,7 +2845,7 @@ def lineBot(op):
 #==============================================================================#   
                 elif "Broadcastvoice " in msg.text:
                     bctxt = msg.text.replace("Bcvoice ", "")
-                    bc = (".Bdw.. Ini adalah Broadcast.. Salam Owner ARDIAN PURNAMA.. by. RFU boot sekawan")
+                    bc = (".Bdw.. Ini adalah Broadcast.. Salam Owner ARDIAN PURNAMA.. by. Sven")
                     cb = (bctxt + bc)
                     tts = gTTS(cb, lang='id', slow=False)
                     tts.save('tts.mp3')
@@ -2854,7 +2855,7 @@ def lineBot(op):
 
                 elif "Cbroadcastvoice " in msg.text:
                     bctxt = msg.text.replace("Cbcvoice ", "")
-                    bc = (".Bdw.. Ini adalah Broadcast.. Salam Owner ARDIAN PURNAMA.. by. RFU boot sekawan")
+                    bc = (".Bdw.. Ini adalah Broadcast.. Salam Owner ARDIAN PURNAMA.. by. Sven")
                     cb = (bctxt + bc)
                     tts = gTTS(cb, lang='id', slow=False)
                     tts.save('tts.mp3')
@@ -3054,7 +3055,7 @@ def lineBot(op):
                     print ("Selfbot Off")
                     exit(1)
 
-                elif text.lower() == 'friendlist':
+                elif text.lower() == 'รายชื่อเพื่อน':
                     contactlist = line.getAllContactIds()
                     kontak = line.getContacts(contactlist)
                     num=1
@@ -3065,7 +3066,7 @@ def lineBot(op):
                     msgs+="\n🎎List Friend🎎\n\nTotal Teman : %i" % len(kontak)
                     line.sendMessage(msg.to, msgs)
 
-                elif msg.text in ["Blocklist"]: 
+                elif msg.text in ["รายชื่อบล็อค"]: 
                     blockedlist = line.getBlockedContactIds()
                     kontak = line.getContacts(blockedlist)
                     num=1
@@ -3076,7 +3077,7 @@ def lineBot(op):
                     msgs+="\n════════List Blocked════════\n\nTotal Blocked : %i" % len(kontak)
                     line.sendMessage(receiver, msgs)
 
-                elif msg.text in ["Friendlist mid"]: 
+                elif msg.text in ["มิดเพื่อนทั้งหมด"]: 
                     gruplist = line.getAllContactIds()
                     kontak = line.getContacts(gruplist)
                     num=1
@@ -3123,19 +3124,19 @@ def lineBot(op):
                         except:
                             pass
 
-                elif msg.text in ["Tagimage on","Tag2 on"]:
+                elif msg.text in ["Tagimage on","แทค2ออน"]:
                         settings['potoMention'] = True
                         line.sendMessage(msg.to,"Respon enabled.")
                 
-                elif msg.text in ["Tagimage off","Tag2 off"]:
+                elif msg.text in ["Tagimage off","แทค2ออฟ"]:
                         settings['potoMention'] = False
                         line.sendMessage(msg.to,"Respon disabled.")
 
-                elif msg.text in ["Respontag on","Tag on","My respon on","Respon:on"]:
+                elif msg.text in ["Respontag on","แทคออน","My respon on","Respon:on"]:
                     settings["detectMention"] = True
                     line.sendMessage(msg.to,"AutoRespon enabled.")
                 
-                elif msg.text in ["Respontag off","Tag off","My respon off","Respon:off"]:
+                elif msg.text in ["Respontag off","แทคออฟ","My respon off","Respon:off"]:
                     settings["detectMention"] = False
                     line.sendMessage(msg.to,"Autorespon disabled.")
 
@@ -3218,7 +3219,7 @@ def lineBot(op):
                         gMembMids = [contact.mid for contact in group.invitee]
                         for i in gMembMids:
                             random.choice(Exc).cancelGroupInvitation(msg.to,[i])
-                elif msg.text.lower() == "ออน":
+                elif msg.text.lower() == "เชคออน์":
                     line.sendText(msg.to,(str(datetime.datetime.now() - start_runtime)[:-7].split(" days, ")[0]+" วัน "+str(datetime.datetime.now() - start_runtime)[:-7].split(" days, ")[1].split(":")[0]+" ชั่วโมง " if "days" in str(datetime.datetime.now() - start_runtime) else str(datetime.datetime.now() - start_runtime)[:-7].split(" day, ")[0]+" วัน "+str(datetime.datetime.now() - start_runtime)[:-7].split(" day, ")[1].split(":")[0]+" ชั่วโมง " if "day" in str(datetime.datetime.now() - start_runtime) else str(datetime.datetime.now() - start_runtime)[:-7].split(":")[0]+" ชั่วโมง ")+str(datetime.datetime.now() - start_runtime)[:-7].split(":")[1]+" นาที "+str(datetime.datetime.now() - start_runtime)[:-7].split(":")[2]+" วินาที")
 #=============COMMAND KICKER===========================#
                 elif msg.text in ["cb"]:
@@ -3284,7 +3285,7 @@ def lineBot(op):
                            except:
                                ki.sendMessage(msg.to,"Limit kaka 😫")                               
 
-                elif 'k2 kik' in text.lower():
+                elif 'k2 kick' in text.lower():
                        targets = []
                        key = eval(msg.contentMetadata["MENTION"])
                        key["MENTIONEES"] [0] ["M"]
@@ -3435,7 +3436,7 @@ def lineBot(op):
                                      line.sendMessage(receiver,"sorry bl ke cyduk")
                                      print ("Blacklist di Kick")
 
-                elif text.lower() == "removechat":
+                elif text.lower() == "รีแชท":
                         if msg._from in Family:
                             try:
                                 ki.removeAllMessages(op.param2)
@@ -3465,7 +3466,7 @@ def lineBot(op):
                             ke.leaveGroup(i)                            
                             print ("Kicker Leave All group")
 
-                elif "myname: " in text.lower():
+                elif "ชื่อเรา: " in text.lower():
                     if msg._from in Family:
                         proses = text.split(": ")
                         string = text.replace(proses[0] + ": ","")
@@ -3540,10 +3541,10 @@ def lineBot(op):
                         print ("Kicker Respon")
 
                 elif msg.text in ["Bot?"]:
-                    ki.sendMessage(msg.to,"✰ɢʜᴏsᴛ ᴛᴇᴀᴍ✰")
-                    kk.sendMessage(msg.to,"✰ɢʜᴏsᴛ ᴛᴇᴀᴍ✰2")
-                    kc.sendMessage(msg.to,"✰ɢʜᴏsᴛ ᴛᴇᴀᴍ✰3")
-                    ke.sendMessage(msg.to,"✰ɢʜᴏsᴛ ᴛᴇᴀᴍ✰4")    
+                    ki.sendMessage(msg.to,"༺ πနးຫຮี่のีধ์ ༻")
+                    kk.sendMessage(msg.to,"༺ πနးຫຮี่のีধ์ ༻2")
+                    kc.sendMessage(msg.to,"༺ πနးຫຮี่のีধ์ ༻3")
+                    ke.sendMessage(msg.to,"༺ πနးຫຮี่のีধ์ ༻4")    
                 elif msg.text.lower().startswith("bitcoin"):
                    search = msg.text.split("bitcoin")
                    with requests.session() as web:
@@ -3559,7 +3560,7 @@ def lineBot(op):
                        hasil += "\nCheap : " +str(data["low"])               
                        line.sendMessage(to, str(hasil))
 #=============COMMAND PROTECT=========================#
-                elif msg.text.lower() == 'protect on':
+                elif msg.text.lower() == 'เปิดกัน':
                     if RfuProtect["protect"] == True:
                         if settings["lang"] == "JP":
                             line.sendMessage(msg.to,"เปิดป้องกัน   ")
@@ -3572,7 +3573,7 @@ def lineBot(op):
                         else:
                             line.sendMessage(msg.to,"เปิดป้องกัน   ")
 
-                elif msg.text.lower() == 'protect off':
+                elif msg.text.lower() == 'ปิดกัน':
                     if RfuProtect["protect"] == False:
                         if settings["lang"] == "JP":
                             line.sendMessage(msg.to,"ปิดป้องกัน   ")
@@ -3611,7 +3612,7 @@ def lineBot(op):
                         else:
                             line.sendMessage(msg.to,"ปิดป้องกันยกเลิกเชิญ   ")
 
-                elif msg.text.lower() == 'invit pro on':
+                elif msg.text.lower() == 'เปิดกันยก':
                     if RfuProtect["inviteprotect"] == True:
                         if settings["lang"] == "JP":
                             line.sendMessage(msg.to,"เปิดป้องกันยกเชิญ   ")
@@ -3624,7 +3625,7 @@ def lineBot(op):
                         else:
                             line.sendMessage(msg.to,"เปิดป้องกันยกเชิญ   ")
 
-                elif msg.text.lower() == 'invit pro off':
+                elif msg.text.lower() == 'ปิดกันยก':
                     if RfuProtect["inviteprotect"] == False:
                         if settings["lang"] == "JP":
                             line.sendMessage(msg.to,"ปิดป้องกันยกเชิญ   ")
@@ -3637,7 +3638,7 @@ def lineBot(op):
                         else:
                             line.sendMessage(msg.to,"ปิดป้องกันยกเชิญ   ")
 
-                elif msg.text.lower() == 'link pro on':
+                elif msg.text.lower() == 'เปิดกันลิ้ง':
                     if RfuProtect["linkprotect"] == True:
                         if settings["lang"] == "JP":
                             line.sendMessage(msg.to,"เปิดป้องกันลิ้ง   ")
@@ -3650,7 +3651,7 @@ def lineBot(op):
                         else:
                             line.sendMessage(msg.to,"เปิดป้องกันลิ้ง   ")
 
-                elif msg.text.lower() == 'link pro off':
+                elif msg.text.lower() == 'ปิดกันลิ้ง':
                     if RfuProtect["linkprotect"] == False:
                         if settings["lang"] == "JP":
                             line.sendMessage(msg.to,"ปิดป้องกันลิ้ง   ")
@@ -3663,7 +3664,7 @@ def lineBot(op):
                         else:
                             line.sendMessage(msg.to,"ปิดป้องกันลิ้ง   ")
 
-                elif msg.text.lower() == 'guest pro on':
+                elif msg.text.lower() == 'เปิดกันสมาชิก':
                     if RfuProtect["Protectguest"] == True:
                         if settings["lang"] == "JP":
                             line.sendMessage(msg.to,"เปิดป้องกันสมาชิก   ")
@@ -3676,7 +3677,7 @@ def lineBot(op):
                         else:
                             line.sendMessage(msg.to,"เปิดป้องกันสมาชิก   ")
 
-                elif msg.text.lower() == 'guest pro off':
+                elif msg.text.lower() == 'ปิดกันสมาชิก':
                     if RfuProtect["Protectguest"] == False:
                         if settings["lang"] == "JP":
                             line.sendMessage(msg.to,"ปิดป้องกันสมาชิก   ")
@@ -3689,7 +3690,7 @@ def lineBot(op):
                         else:
                             line.sendMessage(msg.to,"ปิดป้องกันสมาชิก   ")
 
-                elif msg.text.lower() == 'join pro on':
+                elif msg.text.lower() == 'เปิดกันเข้า':
                     if RfuProtect["Protectjoin"] == True:
                         if settings["lang"] == "JP":
                             line.sendMessage(msg.to,"เปิดป้องกันคนเข้า   ")
@@ -3702,7 +3703,7 @@ def lineBot(op):
                         else:
                             line.sendMessage(msg.to,"เปิดป้องกันคนเข้า   ")
 
-                elif msg.text.lower() == 'join pro off':
+                elif msg.text.lower() == 'ปิดกันเข้า':
                     if RfuProtect["Protectjoin"] == False:
                         if settings["lang"] == "JP":
                             line.sendMessage(msg.to,"ปิดป้องกันคนเข้า   ")
@@ -3715,7 +3716,7 @@ def lineBot(op):
                         else:
                             line.sendMessage(msg.to,"ปิดป้องกันคนเข้า   ")
 
-                elif msg.text.lower() == 'proall on':
+                elif msg.text.lower() == 'เปิดหมด':
                     if RfuProtect["inviteprotect"] == True:
                         if settings["lang"] == "JP":
                             line.sendMessage(msg.to,"✰เปิดป้องกันทั้งหมด✰")
@@ -3779,7 +3780,7 @@ def lineBot(op):
                         else:
                             line.sendMessage(msg.to,"เปิดป้องกันบุคคลภายน้อกเข้ากลุ่ม")
 
-                elif msg.text.lower() == 'proall off':
+                elif msg.text.lower() == 'ปิดหมด':
                     if RfuProtect["inviteprotect"] == False:
                         if settings["lang"] == "JP":
                             line.sendMessage(msg.to,"✰ปิดป้องกันทั้งหมด✰")
@@ -3844,7 +3845,7 @@ def lineBot(op):
                             line.sendMessage(msg.to,"ปิดป้องกันบุคคลภายน้อกเข้ากลุ่ม")
 
 #==============FINNISHING PROTECT========================#
-                elif msg.text.lower() == 'welcomemessage on':
+                elif msg.text.lower() == 'เปิดต้อนรับ':
                         if settings["Wc"] == True:
                             if settings["lang"] == "JP":
                                 line.sendMessage(to,"เปิดข้อความต้อนรับมีคนสมาชิกเข้ากลุ่ม   .")
@@ -3852,7 +3853,7 @@ def lineBot(op):
                             settings["Wc"] = True
                             if settings["lang"] == "JP":
                                 line.sendMessage(to,"เปิดข้อความต้อนรับมีคนสมาชิกเข้ากลุ่ม   ")
-                elif msg.text.lower() == 'welcomemessage off':
+                elif msg.text.lower() == 'ปิดต้อนรับ':
                         if settings["Wc"] == False:
                             if settings["lang"] == "JP":
                                 line.sendMessage(to,"ปิดข้อความต้อนรับมีคนสมาชิกเข้ากลุ่ม   ")
@@ -3861,7 +3862,7 @@ def lineBot(op):
                             if settings["lang"] == "JP":
                                 line.sendMessage(to,"ปิดข้อความต้อนรับมีคนสมาชิกเข้ากลุ่ม   ")
 
-                elif msg.text.lower() == 'leavemessage on':
+                elif msg.text.lower() == 'เปิดคนออก':
                         if settings["Lv"] == True:
                             if settings["lang"] == "JP":
                                 line.sendMessage(to,"เปิดข้อความต้อนรับมีคนสมาชิกออกกลุ่ม   ")
@@ -3869,7 +3870,7 @@ def lineBot(op):
                             settings["Lv"] = True
                             if settings["lang"] == "JP":
                                 line.sendMessage(to,"เปิดข้อความต้อนรับมีคนสมาชิกออกกลุ่ม   ")
-                elif msg.text.lower() == 'leavemessage off':
+                elif msg.text.lower() == 'ปิดคนออก':
                         if settings["Lv"] == False:
                             if settings["lang"] == "JP":
                                 line.sendMessage(to,"ปิดข้อความต้อนรับมีคนสมาชิกออกกลุ่ม   ")
@@ -3878,7 +3879,7 @@ def lineBot(op):
                             if settings["lang"] == "JP":
                                 line.sendMessage(to,"ปิดข้อความต้อนรับมีคนสมาชิกออกกลุ่ม   ")
 
-                elif text.lower() == '/ลบรัน':
+                elif text.lower() == 'ลบรัน':
                     gid = line.getGroupIdsInvited()
                     start = time.time()
                     for i in gid:
@@ -3910,7 +3911,7 @@ def lineBot(op):
                                        except:
                                            line.sentMessage(msg.to,"All members has been added ban.")
 										   
-                elif 'ban' in text.lower():
+                elif 'แบน' in text.lower():
                        targets = []
                        key = eval(msg.contentMetadata["MENTION"])
                        key["MENTIONEES"] [0] ["M"]
@@ -3926,7 +3927,7 @@ def lineBot(op):
                            except:
                                line.sendMessage(msg.to,"Contact Not Found")
 
-                elif 'unban' in text.lower():
+                elif 'เลิกแบน' in text.lower():
                        targets = []
                        key = eval(msg.contentMetadata["MENTION"])
                        key["MENTIONEES"] [0] ["M"]
@@ -4527,7 +4528,7 @@ def lineBot(op):
                          if settings['detectMention'] == True:
                              contact = line.getContact(msg._from)
                              cName = contact.displayName
-                             balas = ["『 Auto Respon』\n " + cName + "\n『แทคทำไมหรอ?』"]
+                             balas = ["『 ตอบอัติโนมัติ 』\n " + cName + "\n『แทคทำไมคับเหงาอ่อ?』"]
                              ret_ = "" + random.choice(balas)
                              name = re.findall(r'@(\w+)', msg.text)
                              mention = ast.literal_eval(msg.contentMetadata["MENTION"])
@@ -4536,16 +4537,20 @@ def lineBot(op):
                                    if mention['M'] in lineMID:
                                           line.sendMessage(to,ret_)
                                           sendMessageWithMention(to, contact.mid)
-                                          break										  
+                                          break						
                 if msg.text in ["Me","me",".me",".Me","คท","/me"]:
-                    line.sendText(msg.to,"😜เชคจัง กลัวบอทหลุดละสิ😂")
+                    line.sendText(msg.to,"เชคทะมุยกลัวหลุดออ")
                 if msg.text in ["sp","speed",".speed","/speed","Sp",".Speed"]:
-                    line.sendText(msg.to,"😜แรงครับแรงแล้ว😂")
+                    line.sendText(msg.to,"เร็วแรงไหมพี่")
                 if msg.text in ["runtime","Runtime","/uptime","ออน",".uptime"]:
-                    line.sendText(msg.to,"จะล็อคเซลนานไปไหน")				
+                    line.sendText(msg.to,"นานยังๆ")							  
+                if msg.text in [".มอง"]:
+                    line.sendText(msg.to,"มองไยยยย")	  
+                if msg.text in ["555","5555","55555"]:
+                    line.sendText(msg.to,"ขำอะไรนักหนา-.-")	
                 if msg.text in dangerMessage:
                     random.choice(Rfu).kickoutFromGroup(receiver,[sender])
-                    random.choice(Rfu).sendText(msg.to,"ตรวจพบคำสั่งของบอทลบกลุ่ม จำเป็นต้องนำออกเพื่อความปลอดภัยของสมาชิก (｀・ω・´)")										
+                    random.choice(Rfu).sendText(msg.to,"ตรวจพบคำสั่งของบอทลบกลุ่ม จำเป็นต้องนำออกเพื่อความปลอดภัยของสมาชิก โจ๊ะๆ (｀・ω・´)")										
 # ----------------- NOTIFED MEMBER JOIN GROUP
         if op.type == 17:
           if settings["Wc"] == True:
@@ -4554,13 +4559,13 @@ def lineBot(op):
             ginfo = line.getGroup(op.param1)
             contact = line.getContact(op.param2)
             image = "http://dl.profile.line-cdn.net/" + contact.pictureStatus			
-            line.sendText(op.param1, " ยินดีต้อนรับ. เข้ามาแล้วก็อย่าลืมปิดแจ้งเตือนกันน่ะครับ" + line.getContact(op.param2).displayName + " สู่กลุ่ม " + "👉" + str(ginfo.name) + "👈""\nหรือสนใจลงบอทป้องกันบอทแท็ก ติดต่อได้ที่Line ID : klkl191\nhttp://line.me/ti/p/~klkl191")			
+            line.sendText(op.param1, "สวัสดี {}, Welcome to Group {}\nเข้ามาแล้วทำตัวดีๆละ\nอ่ย่าไปเป็นบ้าลบเพื่อนๆออกกลุ่มนะ (｀・ω・´)" + line.getContact(op.param2).displayName + " สู่กลุ่ม " + "👉" + str(ginfo.name) + "👈""\nหรือสนใจเรียนเชลบอทหรือซื้อสคีปเชลบอท ติดต่อได้ที่Line ID : selfbot195000\nhttp://line.me/ti/p/~selfbot195000")			
 # ----------------- NOTIFED MEMBER OUT GROUP
         if op.type == 15:
           if settings['Lv'] == True:
             if op.param2 in bot1:
                 return
-            line.sendText(op.param1,"good Bye" + line.getContact(op.param2).displayName + "รีบไปไหนอ่ะ. ไม่เป็นไรไว้เจอกันใหม่น่ะจ๊ะ")
+            line.sendText(op.param1,"บ๊ายบาย" + line.getContact(op.param2).displayName + "รีบไปไหนอ่ะ. ไม่เป็นไรไว้เจอกันใหม่น่ะจ๊ะ จุ๊ฟฟ ")
 # ----------------- NOTIFED MEMBER JOIN GROUP
         if op.type == 55:
             try:
