@@ -35,8 +35,8 @@ Exc = [line]
 lineMID = line.getProfile().mid
 bot1 = line.getProfile().mid
 RfuBot=[lineMID]
-Family=["u7a4febc4c650fc7679eadf4245c2a5a",lineMID]
-admin=['u7a4febc4c650fc7679eadf4245c2a5a',lineMID]
+Family=["u3930826c2f2dbf7b11a27efbcc37add",lineMID]
+admin=['u3930826c2f2dbf7b11a27efbcc37add',lineMID]
 RfuFamily = RfuBot + Family
 
 protectname = []
@@ -788,7 +788,7 @@ def lineBot(op):
                     line.sendContact(to, lineMID)
                 elif text.lower() == 'creator':
                     sendMessageWithMention(to, lineMID)
-                    line.sendContact(to, "u7a4febc4c650fc7679eadf4245c2a5ad")
+                    line.sendContact(to, "u3930826c2f2dbf7b11a27efbcc37add5")
                 elif text.lower() == 'มิด':
                     line.sendMessage(msg.to,"[มิด]\n" +  lineMID)
                 elif text.lower() == 'ชื่อ':
@@ -2743,7 +2743,7 @@ def lineBot(op):
                     print ("Selfbot Off")
                     exit(1)
 
-                elif text.lower() == 'friendlist':
+                elif text.lower() == 'รายชื่อเพื่อน':
                     contactlist = line.getAllContactIds()
                     kontak = line.getContacts(contactlist)
                     num=1
@@ -2765,7 +2765,7 @@ def lineBot(op):
                     msgs+="\n════════List Blocked════════\n\nTotal Blocked : %i" % len(kontak)
                     line.sendMessage(receiver, msgs)
 
-                elif msg.text in ["รายชื่อเพื่อน"]: 
+                elif msg.text in ["มิดเพื่อนทั้งหมด"]: 
                     gruplist = line.getAllContactIds()
                     kontak = line.getContacts(gruplist)
                     num=1
@@ -2936,7 +2936,7 @@ def lineBot(op):
                                  except:
                                      line.sendMessage(receiver,"sorry bl ke cyduk")
                                      print ("Blacklist di Kick")
-                elif "myname: " in text.lower():
+                elif "ชื่อเรา: " in text.lower():
                     if msg._from in Family:
                         proses = text.split(": ")
                         string = text.replace(proses[0] + ": ","")
